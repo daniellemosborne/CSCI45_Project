@@ -81,7 +81,7 @@ class Troll(pygame.sprite.Sprite):
                 self.rect.y = ground_height - self.rect.height
                 self.velocity_y = 0
                 self.on_ground = True
-                self.jump_power = -15  # Reset jump power when Shrek touches the ground
+                self.jump_power = -15  # Reset jump power when troll touches the ground
 
         # move troll guy along with the scrolling ground
         self.rect.x -= scroll
